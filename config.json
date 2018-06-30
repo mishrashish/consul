@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "scm",
+    "url" : "https://github.com/mishrashish/consul.git",
+    "branches" : ["master"],
+    "include_branch_name" : false,
+    "expand_keys" : false,
+    "hooks": [{
+      "type" : "polling",
+      "interval" : "1"
+    }]
+  }]
+}
